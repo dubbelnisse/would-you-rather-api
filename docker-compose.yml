@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  wyr-db:
+    image: postgres:9.6
+    networks:
+      wyr:
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: wyr-api
+      POSTGRES_PASSWORD: wyr
+      POSTGRES_DB: wyr
+      POSTGRES_INITDB_ARGS: "--encoding=utf8"
+
+networks:
+  wyr:
+  default:

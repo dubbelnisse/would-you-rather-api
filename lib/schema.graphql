@@ -1,0 +1,8 @@
+# Test
+type Test {
+  title: String
+}
+
+type Query {
+  test: Test
+}
