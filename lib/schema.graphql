@@ -1,8 +1,9 @@
-# Test
-type Test {
+# Statements
+type Statements {
+  id: Int
   title: String
 }
 
 type Query {
-  test: Test
+  statements: [Statements]
 }

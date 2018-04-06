@@ -16,6 +16,7 @@
     "graphql-yoga": "1.7.1",
     "md5": "2.2.1",
     "nconf-camel-cased": "3.0.1",
+    "pg": "^7.4.1",
     "require-dir": "1.0.0"
   },
   "devDependencies": {
